@@ -1,0 +1,106 @@
+.Abilities-section{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    min-height: fit-content;   
+    background-color: #e7d911;
+    padding: 0 0 2% 0;
+
+
+    /* -webkit-border-top-left-radius: 40% 80px;
+    -webkit-border-top-right-radius: 40% 80px;
+    -moz-border-radius-topleft: 40% 80px;
+    -moz-border-radius-topright: 40% 80px;
+    border-top-left-radius: 40% 80px;
+    border-top-right-radius: 40% 80px; */
+}
+.Abilities-section-name{
+    color: black;
+    font-family: "Poppins Semibold";
+}
+.third-text{
+    font-size: 30px;
+    padding: 20px 0px 15px 0px;
+    font-weight: bold;
+}
+.skill-text{
+    font-size: 25px;
+    color: rgba(63, 62, 62);
+}
+.h2line{
+    position: relative;
+    height: 1px;
+    width: 10%;
+    background: rgba(63, 62, 62);   
+}
+.Abilities-section-skill{
+    text-align: left;
+    font-family: "Poppins Medium";
+    padding: 2% 20% 4% 20%; 
+}
+.ask{
+    color: rgb(240, 239, 228);
+    background-color: rgba(63, 62, 62);
+    border-top: 2px solid rgb(240, 239, 228) ;
+    border-bottom:  2px solid rgb(240, 239, 228);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px 5px rgba(240, 239, 228, 0.575);
+    margin: 3% 5% 3% 5%;
+    padding: 3% 8% 3% 8%;
+}
+.pcolor{
+    background-color: rgb(240, 239, 228);
+    transition: transform .5s;
+}
+.pcolor:hover{
+    transform: scale(1.1); 
+}
+.aline{
+    position: relative;
+    height: 1px;
+    width: 70%;
+    background: rgba(63, 62, 62);   
+}
+.Abilities-section-language{
+    padding: 2% 20% 2% 20%;
+    text-align: left;
+    color: rgba(63, 62, 62);
+    font-family: "Poppins Light";
+}
+.language-text{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    min-height: fit-content;   
+    font-size: 25px;
+    color: rgba(63, 62, 62); 
+    font-family: "Poppins Semibold";
+}
+.h5line{
+    position: relative;
+    height: 1px;
+    width: 28%;
+    background: rgba(63, 62, 62);   
+}
+.asl{
+    text-align: left;
+    color: rgb(240, 239, 228);
+    background-color: rgba(63, 62, 62);
+    border-top: 2px solid rgb(240, 239, 228) ;
+    border-bottom:  2px solid rgb(240, 239, 228);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px 5px rgba(240, 239, 228, 0.575);
+    margin: 3% 4% 3% 4%;
+    padding: 3% 9% 3% 9%;
+    font-family: "Poppins Medium";
+}
+.skill-name{
+    margin-bottom: 5%;
+}
+.language-name{
+    margin-bottom: 7%;
+}

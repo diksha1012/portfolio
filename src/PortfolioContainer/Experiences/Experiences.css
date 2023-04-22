@@ -1,0 +1,86 @@
+.Experiences-section{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    min-height: fit-content;   
+    background-color: black;
+    padding: 0 0 2% 0;
+}
+.Experiences-section-name{
+    color: rgb(240, 239, 228);
+    font-family: "Poppins Semibold";
+}
+.second-text{
+    font-size: 30px;
+    padding: 20px 0px 15px 0px;
+    font-weight: bold;
+}
+.edu-text{
+    font-size: 25px;
+    color: #e7d911;
+}
+.hline{
+    position: relative;
+    height: 1px;
+    width: 15%;
+    background: rgb(240, 239, 228);   
+}
+.Experiences-section-edu{
+    padding: 5% 15% 0 15%;
+    text-align: left;
+    color: rgb(240, 239, 228);
+    font-family: "Poppins Light";
+}
+.ed-text{
+    font-size: 20px;
+    padding: 2%;
+}
+.du-text{
+    font-size: 15px;
+    color: #e7d911;
+    padding: 2%;
+}
+.ese{
+    padding: 6%;
+    margin: 0 0 6% 0;
+    background-color: rgba(44, 43, 43, 0.651);
+    border: 2px solid #e7d911;
+    box-shadow: 2px 2px 6px 6px rgb(212, 212, 34);
+    border-radius: 25px;
+    transition: transform .5s;
+}
+.ese:hover{
+    transform: scale(1.1); 
+}
+
+.eline{
+    position: relative;
+    height: 1px;
+    width: 60%;
+    background: rgb(240, 239, 228);   
+}
+.Experiences-section-career{
+    padding: 5% 20% 0 20%;
+    text-align: left;
+    color: rgb(240, 239, 228);
+    font-family: "Poppins Light";
+}
+.career-text{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    min-height: fit-content;   
+    font-size: 25px;
+    color: #e7d911;
+}
+.h1line{
+    position: relative;
+    height: 1px;
+    width: 15%;
+    background: rgb(240, 239, 228);   
+    margin-bottom: 6%;
+}

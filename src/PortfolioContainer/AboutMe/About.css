@@ -1,0 +1,122 @@
+.about-section{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    min-height: fit-content;   
+    background-color: #e7d911;
+}
+.about-section-name{
+    font-family: "Poppins Semibold";
+}
+.secondary-text{
+    font-size: 30px;
+    padding: 20px 0px 5px 0px;
+    font-weight: bold;
+}
+.prmary-text{
+    font-size: 13px;
+    color: rgba(63, 62, 62, 0.856);
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 10%;
+    background: rgba(63, 62, 62);   
+}
+.about-section-details{
+    padding: 4% 20% 5% 20%;  /*top right bottom left */
+    font-family: "Poppins Light";
+    text-align: left;
+}
+.asd{
+    color: rgb(240, 239, 228);
+    background-color: black;
+    border: 1px solid rgba(63, 62, 62);
+    border-radius: 25px;
+    box-shadow: 4px 4px 7px 7px rgba(63, 62, 62, 0.479);
+    transition: transform .5s;
+}
+.description{
+    margin: 10% 0 10% 0;
+}
+.key-points{
+    margin-bottom: 5%;
+}
+.high{
+    font-weight: bold;
+}
+ul li::before {
+    content: "\2022";
+    color: #e7d911;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.asd:hover{
+    transform: scale(1.1); 
+}
+.about-picture{
+    margin: 30px 0 0 0;
+    height: 440px;
+    width: 150px;
+    text-align: center;
+    display: block;
+}
+.about-picture-background{
+    height: 66%;
+    width: 66%;
+    margin: 60px 0 0 60px;
+    background-image: url('../../assets/Home/profile+diksha.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #e7d911;
+    border-radius: 25px;
+    transform: rotate(-10deg);
+    transition: .5s ease-out;
+}
+.about-picture-background:hover{
+    transform: scale(1.07);
+    transition: .5s ease-out;
+}
+
+@media screen and (max-width: 1110ps){
+.about-picture{
+    height: 205px;
+    width: 345px;
+}    
+}
+@media screen and (max-width: 910px){
+    .about-picture{
+        height: 255px;
+        width: 305px;
+        margin: 0 0 0 90px;
+        padding:0 0 0 10px;
+        text-align: center;
+    }
+    /* .dnk{
+        margin: 0 0 0 90px;
+        padding:0 0 0 10px;
+    }
+     */
+}
+@media screen and (max-width: 810px){
+    .about-picture{
+        height: 245px;
+        width: 255px;
+        padding: 0 5px 0 0 ;
+        margin: 0 30px 0 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .about-picture{
+        height: 215px;
+        width: 255px;
+        padding: 0 10px 0 0 ;
+        margin: 0 40px 0 0;
+    }
+}
